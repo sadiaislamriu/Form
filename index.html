@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact form</title>
+	<link rel="stylesheet" type="text/css" href="cssfile.css">
+</head>
+<body>
+	<div class="contact-title">
+		<h1>Hello!</h1>
+		<h2>This is a trail form.</h2>
+	</div>
+
+	
+		<form action="connect.php" method="POST">
+
+			<input type="text" name="fname" class="form-input" placeholder="First Name" required>
+			<br>
+
+			<input type="text" name="lname" class="form-input" placeholder="Last Name" required>
+			<br>
+
+			<input type="email" name="email" class="form-input" placeholder="Email Address" required>
+			<br>
+
+			<input type="text" name="cnumber" class="form-input" placeholder="Contact Number" required>
+			<br>
+
+			<select type="text" name="country" class="form-input" placeholder="Select Country" required>
+      				<option value="bangladesh">Bangladesh</option>
+      				<option value="india">India</option>
+      				<option value="pakistan">Pakistan</option>
+    		</select>
+    		<br>
+
+    		<input type="address" name="address" class="form-input" placeholder="Address" required>
+			<br>
+
+			<select type="text" name="gender" class="form-input" placeholder="Select Gender" required>
+      				<option value="m">Male</option>
+      				<option value="f">Female</option>
+      				<option value="o">Others</option>
+    		</select>
+    		<br>
+
+			<textarea name="subject" class="form-input" placeholder="Write Something" rows="4" required></textarea>
+			<br>
+
+			<input type="submit" value="SUBMIT" class="form-input submit">
+					
+			
+		</form>
+	
+
+	
+
+</body>
+</html>
